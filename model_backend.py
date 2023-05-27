@@ -5,6 +5,8 @@ import pandas as pd
 import re
 from nltk.corpus import stopwords
 
+import nltk
+nltk.download('stopwords')
 
 class InputModelo(BM):
     """
